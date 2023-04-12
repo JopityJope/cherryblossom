@@ -12,7 +12,7 @@ body {
   background: linear-gradient(-45deg, #a5bff2, #ffa4c7);
   background-size: 175% 175%;
   animation: gradient 15s ease infinite;
-  height: 100svh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   position: relative;
@@ -48,8 +48,8 @@ canvas {
 }
 
 #tiles {
-  height: 100svh;
-  width: 100svw;
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   grid-template-rows: repeat(var(--rows), 1fr);
@@ -571,7 +571,9 @@ Media queries
   .cvijet-3 {
     left: 82.5%;
   }
-
+  .cvijet-2 {
+    left: 65%;
+  }
   .cvijet-1 {
     left: 17.5%;
   }
@@ -624,8 +626,8 @@ Media queries
 
 @media screen and (max-width: 650px) {
   .chat-box {
-    height: 85svh;
-    width: 90svw;
+    height: 85%;
+    width: 90%;
     top: 5%;
   }
 
