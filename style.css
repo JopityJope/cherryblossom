@@ -12,7 +12,7 @@ body {
   background: linear-gradient(-45deg, #a5bff2, #ffa4c7);
   background-size: 175% 175%;
   animation: gradient 15s ease infinite;
-  height: 100%;
+  height: 100dvh;
   margin: 0;
   padding: 0;
   position: relative;
@@ -29,12 +29,6 @@ body {
 Background
 --------------------*/
 
-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -48,8 +42,8 @@ canvas {
 }
 
 #tiles {
-  height: 100%;
-  width: 100%;
+  height: 100dvh;
+  width: 100dvh;
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   grid-template-rows: repeat(var(--rows), 1fr);
@@ -627,8 +621,8 @@ Media queries
   }
 
   .chat-box {
-    height: 90%;
-    width: 90%;
+    height: 90dvh;
+    width: 90dvh;
     top: 5%;
   }
 
