@@ -29,6 +29,12 @@ body {
 Background
 --------------------*/
 
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -43,7 +49,7 @@ Background
 
 #tiles {
   height: 100dvh;
-  width: 100dvh;
+  width: 100dvw;
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   grid-template-rows: repeat(var(--rows), 1fr);
@@ -616,18 +622,14 @@ Media queries
 } */
 
 @media screen and (max-width: 650px) {
-  html {
-    font-size: 50%;
-  }
-
   .chat-box {
     height: 90dvh;
-    width: 90dvh;
+    width: 90dvw;
     top: 5%;
   }
 
   .oblak {
-    max-width: 27rem;
+    max-width: 30rem;
   }
 
   .cvijet-1,
