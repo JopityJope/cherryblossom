@@ -626,9 +626,9 @@ Media queries
 
 @media screen and (max-width: 650px) {
   .chat-box {
-    height: 85%;
     width: 90%;
-    top: 5%;
+    height: 90dvh;
+    top: 5dvh;
   }
 
   .oblak {
