@@ -12,7 +12,7 @@ body {
   background: linear-gradient(-45deg, #a5bff2, #ffa4c7);
   background-size: 175% 175%;
   animation: gradient 15s ease infinite;
-  height: 100dvh;
+  height: 100svh;
   margin: 0;
   padding: 0;
   position: relative;
@@ -48,8 +48,8 @@ canvas {
 }
 
 #tiles {
-  height: 100dvh;
-  width: 100dvw;
+  height: 100svh;
+  width: 100svw;
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   grid-template-rows: repeat(var(--rows), 1fr);
@@ -623,8 +623,8 @@ Media queries
 
 @media screen and (max-width: 650px) {
   .chat-box {
-    height: 90dvh;
-    width: 90dvw;
+    height: 85svh;
+    width: 90svw;
     top: 5%;
   }
 
@@ -639,7 +639,8 @@ Media queries
 
   .cvijet-2 {
     top: 5%;
-    left: 73%;
+    left: 77%;
+    transform: scale(0.85) translateY(-60%);
   }
 
   .star {
