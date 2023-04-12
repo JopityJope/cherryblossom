@@ -627,7 +627,7 @@ Media queries
 @media screen and (max-width: 650px) {
   .chat-box {
     width: 90%;
-    height: 90dvh;
+    height: 85dvh;
     top: 5dvh;
   }
 
@@ -641,7 +641,7 @@ Media queries
   }
 
   .cvijet-2 {
-    top: 5%;
+    top: 7.5dvh;
     left: 77%;
     transform: scale(0.85) translateY(-60%);
   }
