@@ -267,6 +267,8 @@ Chat-box
   background: rgba(255, 255, 255, 0.6);
   border-radius: var(--border-radius);
   border: solid 2.5px #333;
+  display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -303,6 +305,8 @@ Messages-box
 --------------------*/
 
 .messages-box {
+  display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -335,6 +339,8 @@ Messages-box
 }
 
 .poruka {
+  display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
   align-items: end;
 }
@@ -442,6 +448,8 @@ Input-box
   width: 100%;
   box-sizing: border-box;
   padding: 1rem 2rem 2rem 2rem;
+  display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -482,6 +490,8 @@ Input-box
   border-radius: 50%;
   height: 4rem;
   width: 4rem;
+  display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
   justify-content: center;
   align-items: center;
